@@ -6,6 +6,10 @@ const router = createBrowserRouter([
     path: '/',
     element: <HomePage />,
   },
+  {
+    path: '/fight',
+    element: <FightPage />
+  }
 ]);
 
 export function Router() {
